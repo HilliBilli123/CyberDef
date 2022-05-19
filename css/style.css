@@ -1,0 +1,107 @@
+@import url("common.css");
+
+/* HEADER */
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px 0;
+  border-bottom: 1px solid #282f3a;
+  position: sticky;
+  top: 0;
+}
+.header__contein {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  padding: 10px 10px;
+  background-color: #282f3a;
+  width: 200px;
+  text-align: center;
+  border-radius: 15px 0px 15px 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo {
+  background-color: transparent;
+  font-size: 24px;
+  height: 70px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+/* HEADER END */
+
+/* PAGE BODY */
+.page__body{
+    display: flex;
+    flex-direction: column;
+}
+/* PAGE BODY  END*/
+
+/* Firts Block */
+.first__contein{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.first__text__block{
+    flex: 1 1 auto;
+    padding: 40px 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.first__title{
+    font-size: 48px;
+    text-align: left;
+    font-weight: 700;
+    
+}
+.first__text{
+    font-size: 24px;
+    text-align: justify;
+    /* flex: 1 1 auto; */
+}
+.button__text{
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px 0px 15px 0px;
+    border: solid 1px #fff;
+    transition: all 0.5s;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.button__text:hover{
+    background-color: #282f3a;
+    color: #fff;
+}
+.button__color{
+    background-color: #282f3a;
+    border: solid 1px #fff;
+    color: #fff;
+}
+.button__color:hover{
+    background-color: #fff;
+    border: solid 1px #282f3a;
+    color: #282f3a;
+}
+.text__color{
+    color: #000;
+}
+.color{
+    background-color: #282f3a;
+    color: #fff;
+}
+/* Firts Block end */

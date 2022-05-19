@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+._contein {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.fullPage{
+    height: calc(100vh - 91px);
+}
